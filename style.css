@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrepper{
+    display: grid;
+    text-align: center;
+    height: 200vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: .2fr 1.2fr 1fr 1fr 1fr .2fr ;
+    grid-template-areas: 
+    "header header header header"
+    "con con1 con1 con2"
+    "con con3 con4 con2"
+    "con5 con6 con7 con8"
+    "con9 con10 con11 con12"
+    "footer footer footer footer";
+    grid-gap: 5px;
+    font-size: 50px;
+    
+}
+header{
+    background-color: aqua;
+    grid-area: header;
+}
+.con{
+    background-color: aqua;
+    grid-area: con;
+}
+.con1{
+    background-color: aqua;
+    grid-area: con1;
+}
+.con2{
+    background-color: aqua;
+    grid-area: con2;
+}
+.con3{
+    background-color: aqua;
+    grid-area: con3;
+}
+.con4{
+    background-color: aqua;
+    grid-area: con4;
+}
+.con5{
+    background-color: aqua;
+    grid-area: con5;
+}
+.con6{
+    background-color: aqua;
+    grid-area: con6;
+}
+.con7{
+    background-color: aqua;
+    grid-area: con7;
+}
+.con8{
+    background-color: aqua;
+    grid-area: con8;
+}
+.con9{
+    background-color: aqua;
+    grid-area: con9;
+}
+.con10{
+    background-color: aqua;
+    grid-area: con10;
+}
+.con11{
+    background-color: aqua;
+    grid-area: con11;
+}
+.con12{
+    background-color: aqua;
+    grid-area: con12;
+}
+footer{
+    background-color: cyan;
+    grid-area: footer;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.con-t{
+    position: absolute;
+    color: #9d9cd1;
+    margin-top: 600px;
+    font-size: 30px;
+    background-color: white;
+    border-radius: 5px;
+}
+.con-t1{
+    position: absolute;
+    color: #9d9cd1;
+    margin-top: 416px;
+    font-size: 30px;
+    background-color: white;
+    border-radius: 5px;
+    
+}
+h4{
+    text-align: center;
+}
+h1{
+    font-size: 46px;
+}
+.con1 p{
+    font-size: 26px;
+}
