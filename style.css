@@ -86,19 +86,18 @@ img{
 .con-t{
     position: absolute;
     color: #9d9cd1;
-    margin-top: 600px;
-    font-size: 30px;
+    margin-top: 50vw;
+    font-size: 2.5vw;
     background-color: white;
     border-radius: 5px;
 }
 .con-t1{
     position: absolute;
     color: #9d9cd1;
-    margin-top: 416px;
-    font-size: 30px;
+    margin-top: 32vw;
+    font-size: 3vw;
     background-color: white;
     border-radius: 5px;
-    
 }
 h4{
     text-align: center;
